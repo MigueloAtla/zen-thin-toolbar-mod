@@ -1,13 +1,28 @@
-#nav-bar {
-  max-height: 30px !important;
-  height: 30px !important;
-  min-height: unset !important;
+/* THIN TOOLBAR */
+:root {
+  /* thin */
+  --urlbar-height: 28px !important;
+  --urlbar-container-height: 28px !important;
+  --zen-toolbar-height: 35px !important;
+  --urlbar-min-height: 28px !important;
+  /* thinner */
+  @media (-moz-bool-pref: "theme.thin_toolbar.thinner") {
+    --urlbar-height: 26px !important;
+    --urlbar-container-height: 26px !important;
+    --zen-toolbar-height: 32px !important;
+    --urlbar-min-height: 26px !important;
+  }
 }
 
-#urlbar:not([breakout-extend]) {
-  min-height: 26px !important;
-  height: 26px !important;
+.urlbar-input-container {
+  align-items: center;
 }
-#tracking-protection-icon-container {
-  height: 100% !important;
+
+#identity-icon-label {
+  padding-inline-start: 2px !important;
+  font-size: 0.95em;
+}
+
+#identity-box > * {
+  padding: 2px 8px;
 }

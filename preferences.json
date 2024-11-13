@@ -1,0 +1,8 @@
+[
+  {
+    "property": "theme.thin_toolbar.thinner",
+    "label": "Make toolbar thinner",
+    "type": "checkbox",
+    "defaultValue": false
+  }
+]
