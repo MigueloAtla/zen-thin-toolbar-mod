@@ -3,10 +3,11 @@
   height: 30px !important;
   min-height: unset !important;
 }
-#urlbar:not([breakout][breakout-extend], [breakout][usertyping][focused]) {
+
+#urlbar:not([breakout-extend]) {
   min-height: 26px !important;
   height: 26px !important;
 }
-.urlbar-input-container {
-  align-items: center;
+#tracking-protection-icon-container {
+  height: 100% !important;
 }
