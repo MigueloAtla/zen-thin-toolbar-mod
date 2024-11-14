@@ -1,4 +1,3 @@
-/* THIN TOOLBAR */
 :root {
   /* thin */
   --urlbar-height: 28px !important;
@@ -11,6 +10,18 @@
     --urlbar-container-height: 26px !important;
     --zen-toolbar-height: 32px !important;
     --urlbar-min-height: 26px !important;
+  }
+}
+#urlbar {
+  --urlbar-height: 28px !important;
+  @media (-moz-bool-pref: "theme.thin_toolbar.thinner") {
+    --urlbar-height: 26px !important;
+  }
+}
+#urlbar-container {
+  --urlbar-container-height: 28px !important;
+  @media (-moz-bool-pref: "theme.thin_toolbar.thinner") {
+    --urlbar-container-height: 26px !important;
   }
 }
 
