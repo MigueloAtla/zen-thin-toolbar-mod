@@ -13,19 +13,6 @@
   }
 }
 #urlbar {
-  --urlbar-height: 28px !important;
-  @media (-moz-bool-pref: "theme.thin_toolbar.thinner") {
-    --urlbar-height: 26px !important;
-  }
-}
-#urlbar-container {
-  --urlbar-container-height: 28px !important;
-  @media (-moz-bool-pref: "theme.thin_toolbar.thinner") {
-    --urlbar-container-height: 26px !important;
-  }
-}
-
-#urlbar {
   /* thin */
   --urlbar-height: 28px !important;
   /* thinner */
@@ -41,16 +28,13 @@
     --urlbar-container-height: 26px !important;
   }
 }
-
 .urlbar-input-container {
   align-items: center;
 }
-
 #identity-icon-label {
   padding-inline-start: 2px !important;
   font-size: 0.95em;
 }
-
 #identity-box > * {
   padding: 2px 8px;
 }
